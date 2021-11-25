@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+.main{
+    /* border: 2px solid red; */
+    
+    width: 100%;
+    height: auto;
+    margin: 0 0 10% 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.heading{
+    color: rgb(255, 53, 87);
+    
+    font-family: 'Yellowtail';
+    font-size: 60px;
+}
+.para{
+    color: rgb(255, 53, 87);
+    font-size: 20px;
+    font-family: 'Yellowtail';
+}
+.img{
+    /* border: 2px solid red; */
+    margin: -10% 0 0 -10%;
+    width: 100%;
+    height: 15vh;
+}
+@media (min-width: 992px){
+    .img{
+        /* border: 2px solid blue; */
+        margin: -5% 0 0 -22%;
+        width: 80%;
+        height: 50vh;
+    }
+}

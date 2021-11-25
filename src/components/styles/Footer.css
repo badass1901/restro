@@ -1,0 +1,75 @@
+body {
+    overflow-x: hidden;
+    color: #fff
+}
+
+p {
+    font-size: 14px
+}
+
+.container-fluid {
+    background-color: #252525
+}
+
+.top-part {
+    background-color: #525252
+}
+
+.center-content {
+    margin-top: 120px;
+    margin-bottom: 120px
+}
+
+.btn-pink {
+    border-radius: 0;
+    background-color: rgb(255, 53, 87);
+    color: #fff !important;
+    letter-spacing: 2px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.btn-pink:hover {
+    background-color: rgb(255, 27, 114)
+}
+
+.line {
+    border-top: 1px solid rgb(255, 53, 87);
+    width: 90% !important
+}
+
+.fa-mobile {
+    font-size: 20px
+}
+
+#contact {
+    font-size: 15px
+}
+
+.grey-text {
+    color: lightgrey
+}
+.socialIcon{
+    padding: 1% 1% 1% 1%;
+  text-decoration: none;
+  color: rgb(255, 53, 87);
+  border-radius: 50px;
+}
+.socialIcon:hover{
+    background-color: #1f1f1f;
+    transition: 300ms;
+    color: rgb(255, 255, 255);
+}
+
+.developer{
+    margin: 0 0 0 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.developer:active, .developer:hover{
+    text-decoration: none;
+    color: rgb(255, 53, 87);
+    transition: 400ms;
+    
+}
