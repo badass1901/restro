@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+.SubHeadingMid{
+    margin: 2% 0 4% 0;
+    font-family: 'Yellowtail';
+    font-size: 28px;
+    
+}
+.foodmenu{
+    
+   margin: 3% 0 3% 10%;
+   border-radius: 8px;
+   background-color: rgb(53, 0, 0);
+   width: 80%;
+   
+}
+
+
+@media (max-width: 992px){
+    .foodmenu {
+        margin: 3% 0 3% 1%;
+       
+        width: 98%;
+       
+        
+     }
+
+}
+.row1{
+    
+    color:#fff;
+    font-size: 15px;
+    /* text-align: center; */
+    margin: 0% 0 0 0;
+    
+    
+  
+}
+.col{
+    text-align: justify;
+    margin: 2% 0 2% 0;
+}

@@ -4,7 +4,7 @@ import "./styles/Carosel.css";
 
 function Carosel() {
   return (
-    <div>
+    <div class="d-flex justify-content-center">
       <div
         id="carouselExampleFade"
         class="carousel slide carousel-fade"

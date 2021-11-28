@@ -4,8 +4,8 @@ import "./styles/Navbar.css";
 function Navbar() {
   return (
     <div>
-      <div className="container-fluid px-0">
-        <nav className="navbar navbar-expand-lg navbar-light bg-white ">
+      <div className="container-fluid px-0 ">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
           <a className="navbar-brand" href="/">
             
               <i class="brand">MyRestro</i>

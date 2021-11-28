@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
 .navbar {
     /* background: #1f1f1f; */
     /* border: 2px solid red; */
@@ -47,7 +48,9 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(255, 225, 225);
+    scroll-behavior: smooth;
+    margin-top: 6%;
 }
 
 @media (max-width: 992px) {

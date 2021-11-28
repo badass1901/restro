@@ -6,16 +6,23 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Carosel from "./components/Carosel";
 import Body from "./components/Body";
+import Tab from "./components/Tab";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Switch>
+
+
+       
+
           <Route exact path="/">
             <Navbar />
             <Carosel />
             <Body />
+            <Tab />
+            
             <Footer />
           </Route>
 

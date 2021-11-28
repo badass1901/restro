@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+.MenuHead{
+    font-family: 'Yellowtail';
+    color: rgb(255, 28, 77);
+    margin: 0 0 5% 0;
+    font-size: 60px;
+}
+#NavItem{
+    /* border: 2px solid red; */
+    border: none;
+    margin: 0 0 0 2%;
+    width: 30%;
+    text-decoration: none;
+}
+#NavItem a{
+color: rgb(255, 28, 115);
+/* border: 2px solid red; */
+font-family: 'Yellowtail';
+font-size: 20px;
+border-radius: 10px;
+border: none;
+background-color: rgb(255, 225, 225);
+padding: 10% 10% 10% 10%;
+text-decoration: none;
+}
+#NavItem a:hover{
+    
+    background-color: rgb(250, 182, 182);
+    font-size: 23px;
+    transition: 500ms;
+}
+
+
+.nav{
+    /* border: 2px solid green; */
+    
+    width: 60%;
+}
+@media (max-width: 992px){
+    #NavItem{
+        /* border: 2px solid red; */
+        border: none;
+        margin: 0 0 0 5%;
+        width: 90%;
+        /* height: 20vh; */
+        text-decoration: none;
+    }
+    #NavItem a{
+    color: rgb(255, 28, 115);
+    /* border: 2px solid red; */
+    padding: 5% 5% 5% 5%;
+    text-decoration: none;
+    }
+    .nav{
+        /* border: 2px solid green; */
+        width: 100%;
+
+        
+    }
+}
