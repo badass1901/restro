@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
       <div className="container-fluid px-0 ">
-        <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white">
           <a className="navbar-brand" href="/">
             
               <i class="brand">MyRestro</i>
